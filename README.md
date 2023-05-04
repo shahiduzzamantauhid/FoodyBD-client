@@ -11,4 +11,4 @@ This is a food service app. This is a full stack project.
  
 
 ## Live Link
-[https://foody-bd.web.app/](https://foody-bd.web.app/)
+[https://foody-bd-client.web.app/](https://foody-bd-client.web.app/)
