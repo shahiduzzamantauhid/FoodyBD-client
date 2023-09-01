@@ -6,7 +6,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   daisyui: {
-    themes: ["bumblebee","night"],
+    themes: [{
+      mytheme: {
+        "primary": "#f6d860",
+        "secondary": "#636d7e",
+        "accent": "#37cdbe",
+        "neutral": "#3d4451",
+        "base-100": "#ffffff",
+      },
+  }],
   },
   theme: {
     extend: {

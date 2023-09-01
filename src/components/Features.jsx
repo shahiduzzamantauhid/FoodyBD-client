@@ -5,10 +5,10 @@ import food from "../asset/food.svg";
 const Features = () => {
   return (
     <div className="pb-8">
-      <h1 className="text-5xl font-bold text-center pt-10 pb-3">
+      <h1 className="text-5xl font-bold text-center pt-20 pb-3">
         Why you will choose us?
       </h1>
-      <div className="flex justify-center">
+      <div className="lg:flex justify-center">
         <div className="card w-96 bg-base-100 ">
           <figure className="px-10 pt-10">
             <img src={chef} alt="" />

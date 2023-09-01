@@ -6,7 +6,9 @@ const Chefs = () => {
 
   useEffect(() => {
     const fetchChefs = async () => {
-      const response = await fetch("https://foody-bd-server-iota.vercel.app/chef/");
+      const response = await fetch(
+        "https://foody-bd-server-iota.vercel.app/chef/"
+      );
       const data = await response.json();
       setChefsdata(data);
     };
@@ -20,10 +22,10 @@ const Chefs = () => {
     );
   }
   return (
-    <div className="hero bg-orange-100 ">
-      <div className=" pt-8">
+    <div className="hero bg-secondary -mt-32">
+      <div className="pt-48 pb-20">
         <div className="text-center">
-          <h1 className=" font-bold text-4xl glass px-5 rounded-2xl  font-raleway inline-block py-3">
+          <h1 className=" font-bold text-4xl glass px-5 rounded-xl  font-raleway inline-block py-3">
             Meet Our best Chef
           </h1>
         </div>

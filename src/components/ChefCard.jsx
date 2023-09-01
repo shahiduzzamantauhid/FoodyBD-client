@@ -43,9 +43,9 @@ const ChefCard = ({ chef }) => {
             <Link
               onClick={handleLogin}
               to={`/chef/${chef_id}`}
-              className="btn btn-primary"
+              className="btn btn-primary btn-outline"
             >
-              Learn now!
+              Know More
             </Link>
           </div>
         </div>
